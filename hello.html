@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<div style="width:300px;">
+</div>
+<h1 style="text-align: center;">RESULTADO</h1>
+  <h3 class="resultado" id="result" style="text-align: center;">[resultado]</h3>
+  <p>Probabilidad de phishing:</p>
+  <p id="proba_ph">Probabilidad de phishing: [proba_ph] %</p>
+  <script src="background.js"></script>
+  <script>
+  document.getElementById("imagen").style.display = "none"
+  </script>
+  <style>
+  .resultado[id="phishing"] { 
+   color: red;
+   } 
+  .resultado[id="legitima"] { 
+   color: green;
+   } 
+  </style>
+  
+</body>
+</html>
